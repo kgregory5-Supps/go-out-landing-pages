@@ -51,7 +51,7 @@ export default function HeroSection({ product }: Props) {
                 <p className="text-3xl font-semibold text-goout-navy" style={{ fontFamily: "var(--font-mono)" }}>{product.price}</p>
               </div>
               <div>
-                <p className="text-sm text-goout-teal font-medium mb-1">Subscribe & Save 15%</p>
+                <p className="text-sm text-goout-teal font-medium mb-1">Subscribe & Save 10%</p>
                 <p className="text-3xl font-semibold text-goout-teal" style={{ fontFamily: "var(--font-mono)" }}>{product.subscribePrice}</p>
               </div>
             </div>

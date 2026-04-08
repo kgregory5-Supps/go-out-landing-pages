@@ -95,8 +95,8 @@ export const PRODUCTS: Record<string, ProductData> = {
     capsuleCount: 90,
     servingSize: "2 Vegetarian Capsules",
     price: "$29.99",
-    subscribePrice: "$25.49",
-    shopifyUrl: "https://go-out.life/products/go-out-daily-maintenance",
+    subscribePrice: "$26.99",
+    shopifyUrl: "https://go-out-test.myshopify.com/products/go-out-daily-maintenance",
     bottleImage: IMAGES.dailyBottle,
     listingImage: IMAGES.dailyListing,
     benefits: [
@@ -154,8 +154,8 @@ export const PRODUCTS: Record<string, ProductData> = {
     capsuleCount: 60,
     servingSize: "2 Vegetarian Capsules",
     price: "$39.99",
-    subscribePrice: "$33.99",
-    shopifyUrl: "https://go-out.life/products/go-out-extra-strength",
+    subscribePrice: "$35.99",
+    shopifyUrl: "https://go-out-test.myshopify.com/products/go-out-extra-strength",
     bottleImage: IMAGES.extraBottle,
     listingImage: IMAGES.extraListing,
     benefits: [
@@ -212,8 +212,8 @@ export const PRODUCTS: Record<string, ProductData> = {
     capsuleCount: 60,
     servingSize: "2 Vegetarian Capsules",
     price: "$49.99",
-    subscribePrice: "$42.49",
-    shopifyUrl: "https://go-out.life/products/go-out-now-1",
+    subscribePrice: "$44.99",
+    shopifyUrl: "https://go-out-test.myshopify.com/products/go-out-now-1",
     bottleImage: IMAGES.nowBottle,
     listingImage: IMAGES.nowListing,
     benefits: [
