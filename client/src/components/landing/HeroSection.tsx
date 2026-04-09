@@ -33,7 +33,7 @@ export default function HeroSection({ product }: Props) {
             <p className="text-xs font-semibold tracking-[0.2em] uppercase text-goout-teal mb-4" style={{ fontFamily: "var(--font-mono)" }}>
               {product.slug === "daily-maintenance" && "Daily Support"}
               {product.slug === "extra-strength" && "High Potency"}
-              {product.slug === "now" && "Fast Acting"}
+              {product.slug === "now" && "As Needed"}
             </p>
 
             <h1 className="text-4xl sm:text-5xl lg:text-[3.5rem] leading-[1.1] text-goout-navy mb-6" style={{ fontFamily: "var(--font-serif)" }}>

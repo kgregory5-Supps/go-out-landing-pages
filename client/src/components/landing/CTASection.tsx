@@ -14,10 +14,10 @@ export default function CTASection({ product }: Props) {
           <div
           >
             <h2 className="text-3xl sm:text-4xl text-goout-navy mb-6" style={{ fontFamily: "var(--font-serif)" }}>
-              Ready to Take Control of Your Uric Acid Levels?
+              Ready to Take Control of Your Joint Comfort?
             </h2>
             <p className="text-lg text-goout-navy/60 mb-10 max-w-xl mx-auto">
-              Join thousands of customers who trust GO-OUT for daily uric acid support. Made in Oregon since 2006.
+              Join thousands of customers who trust GO-OUT for daily joint comfort support. Made in Oregon since 2006.
             </p>
           </div>
 

@@ -66,7 +66,7 @@ const SHARED_FAQ: FAQ[] = [
   {
     question: "Which product should I start with?",
     answer:
-      "Start with Daily Maintenance for ongoing uric acid balance. It's the foundation of the GO-OUT system. Consider the Starter Pack if you also want Extra Strength on hand for tougher days. Use GO-OUT NOW! for fast-acting support as needed.",
+      "Start with Daily Maintenance for ongoing joint comfort. It's the foundation of the GO-OUT system. Consider the Starter Pack if you also want Extra Strength on hand for tougher days. Use GO-OUT NOW! for as-needed support.",
   },
   {
     question: "Can I take more than one GO-OUT product at a time?",
@@ -89,9 +89,9 @@ export const PRODUCTS: Record<string, ProductData> = {
   "daily-maintenance": {
     slug: "daily-maintenance",
     name: "GO-OUT Daily Maintenance",
-    tagline: "The Foundation for Daily Uric Acid Balance",
+    tagline: "The Foundation for Daily Joint Comfort",
     heroSubhead:
-      "A dual-cherry, celery seed, and turmeric formula designed for daily uric acid management. 90 vegetarian capsules. Made in Oregon since 2006.",
+      "A dual-cherry, celery seed, and turmeric formula designed for daily joint comfort. 90 vegetarian capsules. Made in Oregon since 2006.",
     capsuleCount: 90,
     servingSize: "2 Vegetarian Capsules",
     price: "$29.99",
@@ -100,28 +100,28 @@ export const PRODUCTS: Record<string, ProductData> = {
     bottleImage: IMAGES.dailyBottle,
     listingImage: IMAGES.dailyListing,
     benefits: [
-      "Supports healthy uric acid levels already within the normal range",
+      "Supports joint comfort and healthy mobility",
       "Dual-cherry formula with tart cherry 4:1 and black cherry 20:1 extracts",
       "Celery seed extract with 2.2% volatile oils for daily use",
       "Bromelain (1200 GDU/g) for circulatory support",
     ],
-    problemHeadline: "Uric Acid Doesn't Take Days Off. Neither Should Your Support.",
+    problemHeadline: "Joint Comfort Doesn't Take Days Off. Neither Should Your Support.",
     problemBody: [
-      "Your body produces uric acid every single day. When levels creep up, you feel it — in your joints, in your mobility, in the things you used to do without thinking twice.",
-      "Most people wait until they're uncomfortable to do something about it. By then, you're playing catch-up. The smarter approach is daily, proactive support that keeps uric acid levels balanced before they become a problem.",
+      "Your body works hard every single day. When things get out of balance, you feel it — in your joints, in your mobility, in the things you used to do without thinking twice.",
+      "Most people wait until they're uncomfortable to do something about it. By then, you're playing catch-up. The smarter approach is daily, proactive support that keeps your body balanced before discomfort becomes a problem.",
     ],
-    solutionHeadline: "Daily Maintenance: Your Proactive Uric Acid Strategy",
+    solutionHeadline: "Daily Maintenance: Your Proactive Joint Comfort Strategy",
     solutionBody: [
       "GO-OUT Daily Maintenance is a six-ingredient proprietary blend built around tart cherry, black cherry, celery seed, bromelain, turmeric, and potassium citrate. It's designed for consistent, everyday use — the kind of routine that compounds over weeks and months.",
       "The dual-cherry approach (4:1 Tart Cherry + 20:1 Black Cherry) delivers a broader spectrum of anthocyanins than single-cherry formulas. The celery seed extract contains 2.2% volatile oils — calibrated for daily, long-term use rather than short bursts.",
     ],
     ingredients: [
-      { name: "Celery Seed Extract", detail: "Apium graveolens, 2.2% volatile oils", highlight: "Contains 3-n-butylphthalide (3nB), which supports healthy uric acid metabolism" },
+      { name: "Celery Seed Extract", detail: "Apium graveolens, 2.2% volatile oils", highlight: "Contains 3-n-butylphthalide (3nB), which supports healthy joint function" },
       { name: "Tart Cherry 4:1 Extract", detail: "Prunus cerasus", highlight: "Rich in anthocyanins that support a healthy inflammatory response" },
       { name: "Black Cherry 20:1 Extract", detail: "Prunus serotina", highlight: "20 lbs of raw fruit per 1 lb of extract — highly concentrated anthocyanins" },
       { name: "Bromelain", detail: "1200 GDU/g", highlight: "Proteolytic enzyme supporting healthy circulation" },
       { name: "Turmeric Root", detail: "Curcuma longa", highlight: "Curcumin supports a healthy inflammatory response" },
-      { name: "Potassium Citrate", detail: "1% DV", highlight: "Supports uric acid solubility and healthy kidney function" },
+      { name: "Potassium Citrate", detail: "1% DV", highlight: "Supports mineral balance and healthy kidney function" },
     ],
     supplementBlend: "Proprietary Herbal and Nutrient Blend — 1,289 mg",
     otherIngredients: "Vegetable cellulose (preservative-free, from capsule shell), organic rice concentrate, and organic rice extract.",
@@ -141,8 +141,8 @@ export const PRODUCTS: Record<string, ProductData> = {
     ],
     reviewCount: 847,
     rating: 4.8,
-    seoTitle: "GO-OUT Daily Maintenance | Uric Acid Support | Tart Cherry & Celery Seed",
-    seoDescription: "Support healthy uric acid levels with GO-OUT Daily Maintenance. Dual-cherry formula with celery seed extract, bromelain, and turmeric. 90 capsules. Made in Oregon since 2006.",
+    seoTitle: "GO-OUT Daily Maintenance | Joint Comfort Support | Tart Cherry & Celery Seed",
+    seoDescription: "Support joint comfort and healthy mobility with GO-OUT Daily Maintenance. Dual-cherry formula with celery seed extract, bromelain, and turmeric. 90 capsules. Made in Oregon since 2006.",
   },
 
   "extra-strength": {
@@ -150,7 +150,7 @@ export const PRODUCTS: Record<string, ProductData> = {
     name: "GO-OUT Extra Strength",
     tagline: "Higher-Potency Support When You Need It Most",
     heroSubhead:
-      "4x the celery seed volatile oil concentration of Daily Maintenance. Designed for periods when you need more intensive uric acid support. 60 vegetarian capsules.",
+      "4x the celery seed volatile oil concentration of Daily Maintenance. Designed for periods when you need more intensive joint support. 60 vegetarian capsules.",
     capsuleCount: 60,
     servingSize: "2 Vegetarian Capsules",
     price: "$39.99",
@@ -160,7 +160,7 @@ export const PRODUCTS: Record<string, ProductData> = {
     listingImage: IMAGES.extraListing,
     benefits: [
       "8.8% volatile oil celery seed extract — 4x the Daily Maintenance concentration",
-      "Supports healthy uric acid levels during challenging periods",
+      "Supports joint comfort during challenging periods",
       "High-potency bromelain (1200 GDU/g) for circulatory support",
       "Pairs with Daily Maintenance for a comprehensive routine",
     ],
@@ -171,14 +171,14 @@ export const PRODUCTS: Record<string, ProductData> = {
     ],
     solutionHeadline: "Extra Strength: 4x the Potency When It Counts",
     solutionBody: [
-      "GO-OUT Extra Strength delivers celery seed extract standardized to 8.8% volatile oils — four times the concentration found in Daily Maintenance. That means significantly more 3-n-butylphthalide (3nB), the bioactive compound that supports healthy uric acid metabolism.",
+      "GO-OUT Extra Strength delivers celery seed extract standardized to 8.8% volatile oils — four times the concentration found in Daily Maintenance. That means significantly more 3-n-butylphthalide (3nB), "the bioactive compound that supports healthy joint function."
       "The formula pairs this high-potency celery seed with tart cherry 4:1 extract, bromelain (1200 GDU/g), potassium citrate, and turmeric root. It's the same trusted ingredient profile as Daily Maintenance, just dialed up for when you need it.",
     ],
     ingredients: [
       { name: "Celery Seed Extract", detail: "Apium graveolens, 8.8% volatile oils", highlight: "4x the volatile oil concentration of Daily Maintenance — significantly more 3nB" },
       { name: "Tart Cherry 4:1 Extract", detail: "Prunus cerasus", highlight: "Concentrated anthocyanins for inflammatory response support" },
       { name: "Bromelain", detail: "1200 GDU/g", highlight: "High-potency proteolytic enzyme" },
-      { name: "Potassium Citrate", detail: "1% DV", highlight: "Supports uric acid solubility" },
+      { name: "Potassium Citrate", detail: "1% DV", highlight: "Supports mineral balance" },
       { name: "Turmeric Root", detail: "Curcuma longa", highlight: "Curcumin supports healthy inflammatory response" },
     ],
     supplementBlend: "Proprietary Herbal and Nutrient Blend — 1,269 mg",
@@ -186,7 +186,7 @@ export const PRODUCTS: Record<string, ProductData> = {
     freeFrom: "NO soy, salt, yeast, gluten, milk & egg products, sugar, starch, or preservatives.",
     uniqueTitle: "What Makes Extra Strength Different",
     uniqueBody: [
-      "The 8.8% volatile oil content in the celery seed extract is the standout differentiator. That's 4x the concentration found in Daily Maintenance. This delivers a greater concentration of 3nB, luteolin, apigenin, and beta-selenene — the bioactive compounds shown in research to support healthy uric acid metabolism.",
+      "The 8.8% volatile oil content in the celery seed extract is the standout differentiator. That's 4x the concentration found in Daily Maintenance. This delivers a greater concentration of 3nB, luteolin, apigenin, and beta-selenene —"the bioactive compounds shown in research to support healthy joint function.",
       "Unlike Daily Maintenance, Extra Strength does not include Black Cherry Extract. The formulation prioritizes the higher-potency celery seed extract for a more concentrated support formula.",
     ],
     faq: [
@@ -199,14 +199,14 @@ export const PRODUCTS: Record<string, ProductData> = {
     ],
     reviewCount: 523,
     rating: 4.7,
-    seoTitle: "GO-OUT Extra Strength | High-Potency Uric Acid Support | 4x Celery Seed",
-    seoDescription: "GO-OUT Extra Strength delivers 4x the celery seed volatile oil concentration for intensive uric acid support. Tart cherry, bromelain, and turmeric. 60 capsules.",
+    seoTitle: "GO-OUT Extra Strength | High-Potency Joint Support | 4x Celery Seed",
+    seoDescription: "GO-OUT Extra Strength delivers 4x the celery seed volatile oil concentration for intensive joint support. Tart cherry, bromelain, and turmeric. 60 capsules.",
   },
 
   "now": {
     slug: "now",
     name: "GO-OUT NOW!",
-    tagline: "Fast-Acting Support When You Need It Right Away",
+    tagline: "As-Needed Support When You Need It Right Away",
     heroSubhead:
       "A completely different formula built around Chanca Piedra and high-dose Tart Cherry. Designed for as-needed use when you need support fast. 60 vegetarian capsules.",
     capsuleCount: 60,
@@ -218,29 +218,29 @@ export const PRODUCTS: Record<string, ProductData> = {
     listingImage: IMAGES.nowListing,
     benefits: [
       "750 mg Tart Cherry Extract — the highest standalone dose in the GO-OUT lineup",
-      "480 mg Chanca Piedra 10:1 Extract for kidney and urinary tract support",
+      "480 mg Chanca Piedra 10:1 Extract — traditional herbal support",
       "Designed for as-needed use, not daily maintenance",
-      "Two-ingredient formula — simple, potent, fast-acting",
+      "Two-ingredient formula — simple, potent, effective",
     ],
     problemHeadline: "When Discomfort Shows Up Unannounced, You Need a Plan B.",
     problemBody: [
       "It always happens at the worst time. You're about to tee off, you've got a trip planned, or you just want to walk the dog without wincing. Your daily routine is solid, but right now you need something that works on a different timeline.",
       "That's the gap GO-OUT NOW! fills. It's not a replacement for your daily routine — it's the thing you reach for when your daily routine isn't enough.",
     ],
-    solutionHeadline: "GO-OUT NOW!: A Completely Different Formula for Immediate Support",
+    solutionHeadline: "GO-OUT NOW!: A Completely Different Formula for As-Needed Support",
     solutionBody: [
       "GO-OUT NOW! is built around two powerhouse ingredients: 750 mg of Tart Cherry Extract and 480 mg of Chanca Piedra 10:1 Extract. No celery seed, no turmeric — this is a fundamentally different formulation designed for a different purpose.",
-      "Chanca Piedra (Phyllanthus niruri) — literally \"stone breaker\" in Spanish — has centuries of traditional use across South America, India, and China for kidney and urinary tract support. The 10:1 concentration means 10 pounds of raw plant produce 1 pound of extract.",
+      "Chanca Piedra (Phyllanthus niruri) has centuries of traditional use across South America, India, and China. The 10:1 concentration means 10 pounds of raw plant produce 1 pound of extract.",
     ],
     ingredients: [
       { name: "Tart Cherry Fruit Extract", amount: "750 mg", detail: "Prunus cerasus", highlight: "Highest standalone tart cherry dose in the GO-OUT lineup" },
-      { name: "Chanca Piedra 10:1 Extract", amount: "480 mg", detail: "Phyllanthus niruri whole plant", highlight: "\"Stone Breaker\" — centuries of traditional use for kidney and urinary support" },
+      { name: "Chanca Piedra 10:1 Extract", amount: "480 mg", detail: "Phyllanthus niruri whole plant", highlight: "Centuries of traditional herbal use across multiple cultures" },
     ],
     otherIngredients: "Vegetable cellulose (from capsule shell), L-Leucine, Microcrystalline Cellulose, and Silica.",
     freeFrom: "NO soy, salt, yeast, gluten, milk & egg products, sugar, starch, or preservatives.",
     uniqueTitle: "What Makes NOW! Different",
     uniqueBody: [
-      "This is the only GO-OUT product built around Chanca Piedra. While Daily Maintenance and Extra Strength focus on celery seed for uric acid metabolism, NOW! takes a completely different approach with high-dose tart cherry and the traditional \"stone breaker\" herb.",
+      "This is the only GO-OUT product built around Chanca Piedra. While Daily Maintenance and Extra Strength focus on celery seed, NOW! takes a completely different approach with high-dose tart cherry and a traditional herbal extract.",
       "The dosing protocol is also different. Instead of a consistent daily dose, you take two capsules at the first sign of discomfort, with the option to take up to four on the first dose. It's designed to be kept on hand for when you need it.",
     ],
     faq: [
@@ -248,7 +248,7 @@ export const PRODUCTS: Record<string, ProductData> = {
       {
         question: "How is NOW! different from Daily Maintenance and Extra Strength?",
         answer:
-          "Completely different formula. Daily Maintenance and Extra Strength are built around celery seed extract for ongoing uric acid management. NOW! uses Chanca Piedra and high-dose Tart Cherry for fast-acting, as-needed support. Many customers keep all three on hand.",
+          "Completely different formula. Daily Maintenance and Extra Strength are built around celery seed extract for ongoing joint comfort. NOW! uses Chanca Piedra and high-dose Tart Cherry for as-needed support. Many customers keep all three on hand.",
       },
       {
         question: "Can I take NOW! every day?",
@@ -258,8 +258,8 @@ export const PRODUCTS: Record<string, ProductData> = {
     ],
     reviewCount: 312,
     rating: 4.6,
-    seoTitle: "GO-OUT NOW! | Fast-Acting Uric Acid Support | Chanca Piedra & Tart Cherry",
-    seoDescription: "Fast-acting uric acid support with 750mg Tart Cherry and 480mg Chanca Piedra 10:1 Extract. For as-needed use. Made in Oregon since 2006.",
+    seoTitle: "GO-OUT NOW! | As-Needed Joint Support | Chanca Piedra & Tart Cherry",
+    seoDescription: "As-needed joint comfort support with 750mg Tart Cherry and 480mg Chanca Piedra 10:1 Extract. Made in Oregon since 2006.",
   },
 };
 

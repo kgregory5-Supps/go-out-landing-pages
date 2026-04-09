@@ -40,9 +40,9 @@ export default function UniqueSection({ product }: Props) {
             </p>
             <div className="flex flex-wrap gap-3">
               {[
-                { name: "Daily Maintenance", desc: "Everyday uric acid balance", slug: "daily-maintenance" },
+                { name: "Daily Maintenance", desc: "Everyday joint comfort", slug: "daily-maintenance" },
                 { name: "Extra Strength", desc: "High-potency support", slug: "extra-strength" },
-                { name: "NOW!", desc: "Fast-acting, as-needed", slug: "now" },
+                { name: "NOW!", desc: "As-needed support", slug: "now" },
               ]
                 .filter((p) => p.slug !== product.slug)
                 .map((p) => (
